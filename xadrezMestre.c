@@ -89,4 +89,11 @@ int main() {
 
         // Loop para movimentos horizontais
         for (int j = 0; j < PASSOS_HORIZONTAIS + 1; j++) {
-            if (j > PASSOS_HORIZONTAIS) continue; // ignora passos extras_
+            if (j > PASSOS_HORIZONTAIS) continue; // ignora passos extras
+            printf("Direita\n");
+            passosHorizontais++;
+        }
+    }
+
+    return 0;
+}
